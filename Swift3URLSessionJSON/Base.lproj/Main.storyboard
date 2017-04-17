@@ -34,7 +34,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="131.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Krz-Fg-Kpb">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Krz-Fg-Kpb">
                                                     <rect key="frame" x="15" y="18.5" width="94.5" height="95"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="95" id="2gq-Y0-Kq6"/>
@@ -69,8 +69,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imgageView" destination="Krz-Fg-Kpb" id="9jV-TU-l8d"/>
-                                            <outlet property="titleLabel" destination="P3E-DR-Xtt" id="lDR-8E-IPw"/>
+                                            <outlet property="imgView" destination="Krz-Fg-Kpb" id="phH-fB-EEb"/>
+                                            <outlet property="titleLabel" destination="P3E-DR-Xtt" id="YR1-wa-iDY"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -10,8 +10,10 @@ import UIKit
 
 class PotterTableViewCell: UITableViewCell {
   
-  @IBOutlet weak var imgageView: UIImageView!
+
+  @IBOutlet weak var imgView: UIImageView!
   @IBOutlet weak var titleLabel: UILabel!
+
   
 
     override func awakeFromNib() {

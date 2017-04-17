@@ -99,7 +99,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
           print(response?.suggestedFilename ?? url.lastPathComponent)
           print("Download Finished")
           DispatchQueue.main.async() { () -> Void in
-            cell.imageView?.image = UIImage(data: data)
+            cell.imgView?.image = UIImage(data: data)
           }
         }
       }
