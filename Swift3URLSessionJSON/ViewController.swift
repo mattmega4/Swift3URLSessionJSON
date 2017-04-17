@@ -61,6 +61,22 @@ class ViewController: UIViewController {
     task.resume()
   }
   
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "fromViewControllerToDetailVC" {
+      
+      if let detailsVC = segue.destination as? DetailViewController {
+        
+        if let pttr = sender as? Potter  {
+          
+          detailsVC.potterBook = pttr
+          
+        }
+      }
+    }
+  }
+  
+  
 } // End
 
 
@@ -115,6 +131,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     } else {
       return PotterTableViewCell()
     }
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+    let pote: Potter = books[indexPath.row]
+    
+    performSegue(withIdentifier: "fromViewControllerToDetailVC", sender: pote)
     
   }
   

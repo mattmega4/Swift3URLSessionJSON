@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD3706B1EA5553A00059129 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD3706A1EA5553A00059129 /* DetailViewController.swift */; };
 		1DE768701EA4E28B00499957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7686F1EA4E28B00499957 /* AppDelegate.swift */; };
 		1DE768721EA4E28B00499957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE768711EA4E28B00499957 /* ViewController.swift */; };
 		1DE768751EA4E28B00499957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE768731EA4E28B00499957 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DD3706A1EA5553A00059129 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1DE7686C1EA4E28B00499957 /* Swift3URLSessionJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift3URLSessionJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE7686F1EA4E28B00499957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE768711EA4E28B00499957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				1DE768711EA4E28B00499957 /* ViewController.swift */,
+				1DD3706A1EA5553A00059129 /* DetailViewController.swift */,
 				1DE768871EA4E38200499957 /* PotterTableViewCell.swift */,
 			);
 			name = Controller;
@@ -177,6 +180,7 @@
 			files = (
 				1DE768861EA4E2ED00499957 /* Potter.swift in Sources */,
 				1DE768881EA4E38200499957 /* PotterTableViewCell.swift in Sources */,
+				1DD3706B1EA5553A00059129 /* DetailViewController.swift in Sources */,
 				1DE768721EA4E28B00499957 /* ViewController.swift in Sources */,
 				1DE768701EA4E28B00499957 /* AppDelegate.swift in Sources */,
 			);
@@ -342,6 +346,7 @@
 				1DE768801EA4E28B00499957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
