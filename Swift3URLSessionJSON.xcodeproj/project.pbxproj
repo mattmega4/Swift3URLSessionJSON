@@ -12,6 +12,8 @@
 		1DE768751EA4E28B00499957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE768731EA4E28B00499957 /* Main.storyboard */; };
 		1DE768771EA4E28B00499957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE768761EA4E28B00499957 /* Assets.xcassets */; };
 		1DE7687A1EA4E28B00499957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE768781EA4E28B00499957 /* LaunchScreen.storyboard */; };
+		1DE768861EA4E2ED00499957 /* Potter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE768851EA4E2ED00499957 /* Potter.swift */; };
+		1DE768881EA4E38200499957 /* PotterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE768871EA4E38200499957 /* PotterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1DE768761EA4E28B00499957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE768791EA4E28B00499957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE7687B1EA4E28B00499957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE768851EA4E2ED00499957 /* Potter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potter.swift; sourceTree = "<group>"; };
+		1DE768871EA4E38200499957 /* PotterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		1DE7686E1EA4E28B00499957 /* Swift3URLSessionJSON */ = {
 			isa = PBXGroup;
 			children = (
-				1DE7686F1EA4E28B00499957 /* AppDelegate.swift */,
-				1DE768711EA4E28B00499957 /* ViewController.swift */,
-				1DE768731EA4E28B00499957 /* Main.storyboard */,
-				1DE768761EA4E28B00499957 /* Assets.xcassets */,
-				1DE768781EA4E28B00499957 /* LaunchScreen.storyboard */,
-				1DE7687B1EA4E28B00499957 /* Info.plist */,
+				1DE768841EA4E2B600499957 /* Model */,
+				1DE768831EA4E2B400499957 /* View */,
+				1DE768821EA4E2B200499957 /* Controller */,
+				1DE768811EA4E2AD00499957 /* Additional Files */,
 			);
 			path = Swift3URLSessionJSON;
+			sourceTree = "<group>";
+		};
+		1DE768811EA4E2AD00499957 /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7686F1EA4E28B00499957 /* AppDelegate.swift */,
+				1DE768761EA4E28B00499957 /* Assets.xcassets */,
+				1DE7687B1EA4E28B00499957 /* Info.plist */,
+			);
+			name = "Additional Files";
+			sourceTree = "<group>";
+		};
+		1DE768821EA4E2B200499957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DE768711EA4E28B00499957 /* ViewController.swift */,
+				1DE768871EA4E38200499957 /* PotterTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1DE768831EA4E2B400499957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DE768731EA4E28B00499957 /* Main.storyboard */,
+				1DE768781EA4E28B00499957 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1DE768841EA4E2B600499957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DE768851EA4E2ED00499957 /* Potter.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE768861EA4E2ED00499957 /* Potter.swift in Sources */,
+				1DE768881EA4E38200499957 /* PotterTableViewCell.swift in Sources */,
 				1DE768721EA4E28B00499957 /* ViewController.swift in Sources */,
 				1DE768701EA4E28B00499957 /* AppDelegate.swift in Sources */,
 			);

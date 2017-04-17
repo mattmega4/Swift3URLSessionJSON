@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+// MARK: SO Post says using Struct has init built in
+
+struct Potter {
+  let title, author, imageURL: String
+}
+
+
+// MARK: Alternative Way
+
+//class Potter {
+//  let title, author, imageURL: String
+//  init(title: String, author: String, imageURL: String) {
+//    self.title = title
+//    self.author = author
+//    self.imageURL = imageURL
+//  }
+//}
